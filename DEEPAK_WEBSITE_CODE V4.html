@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANGURU DEEPAK DATTA</title>
+
+    <style>
+        body {
+            font-family: Verdana, Tahoma, Sans-Serif, Helvetica, Arial, Trebuchet MS;
+            font-size: 14pt;
+            color: #222;
+            background-color: #ffffff;
+            line-height: 1.5em;
+        }
+
+        a {
+            color: #3b5998;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: #1a73e8;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        h1 {
+            font-size: 18pt;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 14pt;
+            font-weight: bold;
+        }
+
+        hr {
+            color: #444;
+        }
+
+        #borderbox {
+            margin: 5% 20%;
+            border: 5px solid #ccc;
+            background-color: #f7f9fc;
+        }
+
+        #marginbox {
+            padding: 50px;
+            background-color: #f0f4fa;
+        }
+
+        .synopsis { display: none; }
+
+        .div_content {
+            display: none;
+            padding: 10px 30px;
+            background-color: #ffffff;
+            border-radius: 5px;
+        }
+
+        :target { display: block; }
+
+        table, th, td {
+            border: 1px solid #444;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .tr_lecture { text-align: left; }
+        .td_topics { text-align: left; }
+    </style>
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script>
+        function toggle_div(event) {
+            var target_div = document.getElementById(event.currentTarget.id.replace("switch_", "div_"));
+            var target_PM = document.getElementById(event.currentTarget.id);
+
+            if (target_div.style.display === 'block') {
+                target_div.style.display = 'none';
+                target_PM.innerText = '[+]';
+            } else {
+                target_div.style.display = 'block';
+                target_PM.innerText = '[−]';
+            }
+        }
+
+        function reload(id) {
+            var buggyid = document.getElementById(id);
+            buggyid.src = buggyid.src;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="borderbox">
+        <div id="marginbox">
+
+            <h1>Anguru Deepak Datta</h1>
+            <hr>
+
+            <div>
+                <div style="float:left;width:17%;padding:24px">
+                    <img style="width:100%" src="deepak.jpg" alt="Display Picture">
+                </div>
+
+                <div style="float:left;width:75%;padding:5px">
+                    <p style="text-align:justify">
+                        I am a Master of Science (M.S.) by Research student at the
+                        <a href="https://ed.iitm.ac.in/" target="_blank">Department of Engineering Design</a>,
+                        <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>, and a member of the
+                        <a href="https://ed.iitm.ac.in/~dronanki/" target="_blank">PEEM Lab</a>.
+                        My research interests include High Power EV Fast Charging Systems, EV powertrain design.
+                    </p>
+
+                    <a href="https://ieeexplore.ieee.org/author/970083215083018"><img src="IEEE.png" width="60" height="50"></a>
+                    <a href="https://scholar.google.com/citations?user=HX32twyyyMAAAAJ&hl=en"><img src="GScholar.png" width="50" height="50"></a>
+                    <a href="https://orcid.org/0009-0009-9276-0325"><img src="orcid1.png" width="50" height="50"></a>
+                    <a href="https://www.linkedin.com/in/deepak-datta-anguru-4a216a404/"><img src="Linkedin.png" width="50" height="50"></a>
+                    <a href="CV_DeepakDattaAnguru_Jun26.pdf"><img src="CV.png" width="70" height="55"></a>
+                </div>
+
+                <div style="clear:both"></div>
+            </div>
+
+            <hr>
+
+            <!-- BIO -->
+            <a id="switch_BIO" onclick="toggle_div(event)">[+]</a>
+            <h2 style="display:inline"> BIO </h2><br>
+            <div class="div_content" id="div_BIO">
+                <ul>
+                    <li><b>Jan 2025–Ongoing:</b> MS(R), IIT Madras (Advisor: Dr. Deepak Ronanki)</li>
+                    <li><b>Jun 2024–Dec 2024:</b> Project Associate, PEEM Lab, IIT Madras</li>
+                    <li><b>Feb 2024–May 2024:</b> Intern, PEEM Lab, IIT Madras</li>
+                    <li><b>2020–2024:</b> B.Tech in EEE with CS Minor, JNTUK (GVP College of Engineering)
+                        <ul>
+                            <li>Bachelor's thesis: <i>"Reconfigurable Wide Voltage Range Battery Charger for Transportation Electrification"</i></li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+
+
+
+
+            <!-- PUBLICATIONS -->
+           <!-- <a id="switch_PUBLICATIONS" onclick="toggle_div(event)">[+]</a>
+            <h2 style="display:inline"> PUBLICATIONS </h2><br>
+            <div class="div_content" id="div_PUBLICATIONS">
+                <ol reversed>
+                    <li>
+                        <dl>
+                            <dt style="font-weight:bold">Reconfigurable Wide Voltage Range Battery Charger for Electric Transportation Applications</dt>
+                            <dd>with Jammy Ramesh Rahul, Chandrika Vaderevu</dd>
+                            <dd>IEEE PEDES 2024</dd>
+                            
+                        </dl>
+                    </li>
+                </ol>
+                <hr>
+            </div> -->
+
+
+
+
+
+<!-- PUBLICATIONS -->
+<a id="switch_PUBLICATIONS" onclick="toggle_div(event)">[+]</a>
+<h2 style="display:inline"> PUBLICATIONS </h2><br>
+
+<div class="div_content" id="div_PUBLICATIONS">
+
+    <!-- JOURNALS -->
+           <h3>Journals (<span id="journal_count"></span>)</h3>
+    <ol reversed class="journals">
+    <li>
+        <dl>
+            <dt style="font-weight:bold">
+                Pantograph Charging for Electric Vehicles: A Comprehensive Review: Enabling efficient and high-power fast charging for buses, trucks, and heavy-duty electric vehicles.
+            </dt>
+            <dd>with Deepak Ronanki</dd>
+            <dd>
+                <i>
+                    <a href="https://ieeexplore.ieee.org/document/11478397">
+                        IEEE Electrification Magazine
+                    </a>
+                </i>
+                (vol. 14, no. 1, pp. 66-78, March 2026)
+            </dd>
+        </dl>
+    </li>
+</ol>
+
+<script>
+function updateJournalCount() {
+    const count = document.querySelectorAll('.journals li').length;
+    document.getElementById('journal_count').innerText = count;
+}
+
+window.onload = updateJournalCount;
+</script>
+
+    
+
+    <!-- CONFERENCES -->
+    <h3>Conferences (1)</h3>
+    <ol reversed>
+        <li>
+            <dl>
+                <dt style="font-weight:bold">
+                    Reconfigurable Wide Voltage Range Battery Charger for Electric Transportation Applications
+                </dt>
+                <dd>with Jammy Ramesh Rahul, Chandrika Vaderevu</dd>
+                <dd>IEEE PEDES 2024</dd>
+            </dl>
+        </li>
+    </ol>
+
+    <hr>
+</div>
+
+
+            <!-- SERVICE -->
+            <a id="switch_SERVICE" onclick="toggle_div(event)">[+]</a>
+            <h2 style="display:inline"> SERVICE </h2><br>
+            <div class="div_content" id="div_SERVICE">
+                <u>Reviewer</u>
+                <ul>
+                    <li>IEEE PEDES-India 2024</li>
+                    <li>IEEE ECCE-Asia 2024</li>
+                </ul>
+                <hr>
+            </div>
+
+
+            <!-- COURSES -->
+            <a id="switch_COURSES" onclick="toggle_div(event)">[+]</a>
+            <h2 style="display:inline"> COURSES </h2><br>
+            <div class="div_content" id="div_COURSES">
+                <ul>
+                    <li>ED5021: Battery Charging Technology</li>
+                    <li>EE5200: Power Converter Analysis and Design</li>
+                    <li>ED5023: Power Converter Design for Electrified Vehicles</li>
+                    <li>ED5235: Power Electronics and Motor Drives for Electrified Vehicles</li>
+                    <li>ED5017: Digital Signal Processing for Engineering Design</li>
+                    <li>ED5350: Electric Vehicle Engineering and Development</li>
+
+                </ul>
+                <hr>
+            </div>
+
+            <!-- ETC 
+            <a id="switch_ETC" onclick="toggle_div(event)">[+]</a>
+            <h2 style="display:inline"> ETC. </h2><br>
+            <div class="div_content" id="div_ETC">
+                <ul><li>TBA</li></ul>
+                <hr>
+            </div>   -->
+
+
+            <!-- CONTACT -->
+            <a id="switch_CONTACT" onclick="toggle_div(event); reload('map')">[+]</a>
+            <h2 style="display:inline"> CONTACT </h2><br>
+            <div class="div_content" id="div_CONTACT">
+                <ul>
+                    <li>E-mail: ed24s037 at iitm dot ac dot in</li>
+                    <li>Lab: ED504, Dept. of Engineering Design, IIT Madras
+                        <br><br>
+                        <iframe id="map" width="50%" height="250"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.884008965017!2d80.2264582!3d12.9896882!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52677dfe730f6b%3A0x85e3181f34e0a388!2sDepartment%20of%20Engineering%20Design!5e0!3m2!1sen!2sin!4v1732117429157!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen loading="lazy"></iframe>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
